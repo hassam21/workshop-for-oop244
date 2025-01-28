@@ -1,0 +1,14 @@
+In line number 7 of your output:
+The output should be:
+Type echoes.txt and hit <ENTER>
+^
+But your output is: 
+Failed to open file: badFilename
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [T] ASCII code(84)
+but you printed
+  [F] ASCII code(70)
+
