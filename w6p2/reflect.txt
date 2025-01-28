@@ -1,0 +1,30 @@
+/**********************************************************************/
+//
+// I have done all the coding by myself and only copied the code that my 
+// professor provided to complete my workshops and assignments.
+//
+/***********************************************************************
+// OOP244 Workshop #6 LAB
+//
+// File  reflect.txt
+//**********************************************************************
+// Name:Hassam Anas 
+// Sudent ID: 138932223
+// Email: hcheruvallykudy-anas@myseneca.ca
+// Date: 8 July 2024
+// Reason:
+***********************************************************************/
+
+In this workshop, I learned about the use of many constructors and three rule. In addition, I knew how to read and write formatted data utilizing istream and ostream respectively.
+
+This workshop has helped me use Visual Studio Debugger for debugging more efficiently and now I feel more at ease with it.
+
+The things that challenged me during this workshop are: Firstly,Error 40+: Failure to add std namespace resolution (std::) in front of ostream& 
+
+   and istream& in the HealthCard.h. Secondly, A syntax error came next. It was an accident that “m_vCode” and “m_sNumber” were 
+
+   used instead of using “hc.m_vCode” and “hc.m_sNumber” (attributes of the 
+
+   HealthCard object hc passed in as an argument) within Copy Assignment Operator 
+
+   Overload. Thirdly, No newline character (endl) is after line number 97 m_printIDInfo().

@@ -1,0 +1,13 @@
+This workshop helped me learn important tools for initialising classes and acces specifiying data inside the class. We worked on setting up a class type, keeping data secret, making objects, using public tools to access data, and formatting data for output.
+
+It taught me how to create a class in C++ by adding variables and functions to it. For object-oriented computing, this is very important. Another important idea was encapsulation. I made sure that data couldn't be changed directly by making it private. Instead, I used public functions to get and set numbers. The service is safer now because of this.
+
+
+
+Also, making things from a class was important. I learned how to set up things with constructors and how their process works. Using public methods to get to data helped keep track of and manage how data is changed. Another thing I learned was how to use const methods to keep data from changing by accident.
+
+To make the data neat and easy to read, we used standard library tools to prepare it for release.
+
+It was hard for me, especially to understand access specifiers and keep info secret. It was also hard at first to figure out how to organize the data correctly. But I got better with practice.
+
+Overall, this class helped me learn more about object-oriented programming and data handling, which made me feel better about my coding skills.

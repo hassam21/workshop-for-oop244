@@ -1,0 +1,14 @@
+In line number 72 of your output:
+The output should be:
+ 1000.0cc (13.0x10.0) Canister of Unusable content, discard!
+                                  ^
+But your output is: 
+ 1000.0cc (13.0x10.0) Canister of  1000.0cc   Olive Oil
+                                  ^
+
+Unmatched character details:
+The character in column 35 is supposed to be:
+  [U] ASCII code(85)
+but you printed
+  [Space] ASCII code(32)
+

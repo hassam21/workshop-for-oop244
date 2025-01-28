@@ -1,0 +1,9 @@
+This training taught me a lot about designing and applying C++ classes. A class serves as a sort of template for creating objects—things with both data and purposes. We designed a Canister class for liquids that had to have varying qualities including height, width, and content name. When we built a fresh canister, we put up these characteristics using constructions. Different constructors for various circumstances—one for a default canister and another for a canister with certain dimensions and a name—were used.
+
+I also discovered destructive functions—that which clean up when an object is no longer needed. The destructor in our Canister class took care to release memory allocated for the content name. This is crucial as we may run out of memory if we neglect to free it, which would disrupt our applications. This clarified for me C++ memory management techniques.
+
+
+
+Learning about private methods and characteristics was yet another crucial component of the session. These are classroom activities reserved for usage within the classroom itself. This guarantees that the object may only be altered in permitted ways and helps safeguard the data inside of it. We had techniques, for instance, to safely set the content name or to find out if a canister was empty. This helped us to ensure that our canisters operated as they should and avoided entering undesirable states.
+
+Ensuring the canisters handled flowing liquid accurately was one difficulty. Should we attempt to pour too much or combine many substances, the canister would become useless. I had to create code to appropriately manage and search for these criteria. This was challenging yet necessary to ensure our canisters operated as intended. This workshop made me feel more confident in my programming abilities and generally taught me a lot about building and controlling objects in C++.

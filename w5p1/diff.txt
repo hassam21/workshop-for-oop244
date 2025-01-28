@@ -1,0 +1,14 @@
+In line number 166 of your output:
+The output should be:
+Total of 2 new accounts
+         ^
+But your output is: 
+Total of -300005 new accounts
+         ^
+
+Unmatched character details:
+The character in column 10 is supposed to be:
+  [2] ASCII code(50)
+but you printed
+  [-] ASCII code(45)
+
