@@ -1,0 +1,30 @@
+In this workshop, I learned about the rule of three in C++, which is important for 
+managing resources in classes. If a class needs a custom destructor, copy constructor,
+ or copy assignment operator, it usually needs all three. This is because the class is
+ dealing with dynamic memory that can't be copied simply.
+
+For a class like `Text` that uses dynamic memory, the constructor sets up the filename
+ and content. The copy constructor makes a deep copy of the filename and content so 
+each object has its own memory. The copy assignment operator ensures proper copying 
+and cleanup to avoid memory leaks. The destructor frees the memory when the object is 
+destroyed.
+
+In a derived class like `HtmlText`, the constructor initializes both the base class 
+`Text` and its own title. The copy constructor and copy assignment operator handle 
+copying and cleanup for both the base and derived class. The destructor makes sure 
+all memory is freed properly.
+
+I also learned how to read a file into dynamically allocated memory. This involves 
+determining the file length, allocating enough memory, and reading the content into 
+that memory. First, you find out how long the file is. Then, you allocate memory for 
+the file's content. Finally, you read the content into the allocated memory, handling 
+the end of the file and adding a null-terminator.
+
+I learned about different ways to read from input streams in C++. The `istream::get` 
+function reads characters one by one or up to a certain limit. The `istream::getline` 
+function reads a whole line of characters until a newline or a specified character. 
+The `std::getline` function does the same but stores the line in a `std::string`.
+
+These skills are crucial for managing file input and output in C++ and ensure that 
+resources are used correctly and memory is handled properly. This helps in writing 
+more efficient and error-free programs.

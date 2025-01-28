@@ -1,0 +1,16 @@
+After completing this workshop, I gained a deeper understanding of inheritance in C++. Using public inheritance, I learned that public members of 
+the base class become public members of the derived class, making inherited features more accessible.
+
+I explored shadowing, where a member function in a derived class hides a function with the same name in the base class. If I cast an object of the 
+derived class to the base class type, the base class function is used. Otherwise, the derived class function is used. I also learned to access 
+shadowed functions from the base class using the scope resolution operator (::).
+
+Additionally, I gained experience with custom input and output operators (<< and >>) for my classes, which allowed for more intuitive reading and 
+writing of object data.
+
+This workshop reinforced the importance of using the const keyword to prevent unexpected modifications to variables. I also clarified the 
+difference between shadowing and polymorphism. Shadowing creates separate functions in the base and derived classes, while polymorphism, enabled by 
+virtual functions, ensures that the correct function is called based on the actual object type, even when using a base class pointer or reference.
+
+Overall, this workshop provided a solid understanding of inheritance, shadowing, and polymorphism in C++, along with practical use of custom operators 
+and best practices for managing class functions and data integrity.
